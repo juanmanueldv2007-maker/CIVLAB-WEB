@@ -1,24 +1,25 @@
-# CIVLAB — sitio web
+# CIVLAB WEB — versión final inicial
 
-## Archivos
-- index.html — página principal
-- styles.css — estilos
-- script.js — interacción
-- gracias.html — página posterior al envío
+Subir todos estos archivos a la raíz del repositorio GitHub:
+- index.html
+- styles.css
+- script.js
+- gracias.html
+- logo-civlab.png
+- favicon-civlab.png
 
-## Formulario de cotización
-El formulario está preparado con FormSubmit y apunta inicialmente a:
-JuanDuenas@civlabsas.com
+Después de hacer Commit, Vercel debe desplegar automáticamente.
 
-En el primer envío, FormSubmit puede pedir una confirmación del correo. Después de activarlo, las solicitudes llegarán a ese correo.
+Formulario:
+- Destino: JuanDuenas@civlabsas.com
+- WhatsApp: +57 316 608 9930
 
-## Publicación recomendada
-1. Crear una cuenta en Vercel.
-2. Subir este proyecto a un repositorio de GitHub.
-3. Importar el repositorio desde Vercel.
-4. Publicar.
-5. Conectar el dominio de CIVLAB.
-6. Cambiar `_next` en index.html por la URL final de gracias.html si el dominio definitivo no es civlabsas.com.
+IMPORTANTE:
+FormSubmit puede solicitar una confirmación inicial del correo receptor en el primer envío.
+El `_next` actual apunta a https://civlab-web.vercel.app/gracias.html. Cuando conectemos el dominio definitivo, se debe cambiar a la URL definitiva.
 
-## WhatsApp
-El botón de WhatsApp usa el número +57 316 608 9930.
+Paleta:
+- Azul marino #082A43
+- Dorado #C59632
+- Azul secundario #0D527E
+- Fondo #F6F8FA
