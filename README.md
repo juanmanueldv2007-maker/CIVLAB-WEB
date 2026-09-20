@@ -23,3 +23,6 @@ Paleta:
 - Dorado #C59632
 - Azul secundario #0D527E
 - Fondo #F6F8FA
+
+
+V3: footer actualizado para usar el logo azul oficial suministrado por CIVLAB (`logo-footer-civlab.jpg`).
