@@ -36,7 +36,7 @@
     <div class="blueprint">
       <div class="bp-top"><span>CIVLAB / 001</span><span>PROJECT</span></div>
       <div class="bp-lines"></div>
-      <div class="bp-mark"><img src="favicon-civlab.png" alt=""></div>
+      <div class="bp-mark"><img src="emblema-civlab.png" alt="CIVLAB"></div>
       <div class="bp-bottom"><strong>CIVLAB</strong><span>INGENIERÍA · DISEÑO · CONSTRUCCIÓN</span></div>
     </div>
   </div>
@@ -72,13 +72,21 @@
 </section>
 
 <section id="nosotros" class="about section">
-  <div class="about-side"><span>CL</span><div></div><strong>2026</strong></div>
+  <div class="about-side">
+    <img class="about-emblem" src="emblema-civlab.png" alt="Emblema CIVLAB">
+    <div class="about-rule"></div>
+    <div class="about-caption"><strong>CIVLAB SAS</strong><span>INGENIERÍA · DISEÑO · CONSTRUCCIÓN</span></div>
+  </div>
   <div class="about-copy">
     <p class="eyebrow">SOBRE CIVLAB</p>
     <h2>Ingeniería con<br><em>visión de proyecto.</em></h2>
     <p>En CIVLAB desarrollamos soluciones de ingeniería y construcción con una visión técnica, práctica y orientada a las necesidades de cada cliente.</p>
-    <p>Integramos diseño, análisis, tecnología y acompañamiento para convertir necesidades en proyectos viables.</p>
-    <div class="values"><div><b>01</b><span>Visión técnica</span></div><div><b>02</b><span>Soluciones integrales</span></div><div><b>03</b><span>Atención personalizada</span></div></div>
+    <p>Integramos diseño, análisis, tecnología y acompañamiento para convertir necesidades en proyectos viables, buscando que cada decisión técnica responda al proyecto y a sus objetivos.</p>
+    <div class="values">
+      <div><b>01</b><span>Visión técnica</span></div>
+      <div><b>02</b><span>Soluciones integrales</span></div>
+      <div><b>03</b><span>Atención personalizada</span></div>
+    </div>
   </div>
 </section>
 
@@ -90,7 +98,7 @@
     <div class="contact-card"><span>EMAIL</span><strong>JuanDuenas@civlabsas.com</strong></div>
     <div class="contact-card"><span>WHATSAPP</span><strong>+57 316 608 9930</strong></div>
   </div>
-  <form action="https://formsubmit.co/JuanDuenas@civlabsas.com" method="POST">
+  <form action="https://formsubmit.co/JuanDuenas@civlabsas.com" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="_subject" value="Nueva solicitud de cotización — CIVLAB SAS">
     <input type="hidden" name="_captcha" value="true">
     <input type="hidden" name="_template" value="table">
@@ -98,7 +106,7 @@
     <div class="form-row"><label>Nombre completo<input name="nombre" autocomplete="name" required></label><label>Teléfono / WhatsApp<input name="telefono" autocomplete="tel" required></label></div>
     <div class="form-row"><label>Correo electrónico<input type="email" name="correo" autocomplete="email" required></label><label>Servicio<select name="servicio" required><option value="">Seleccionar</option><option>Diseño y remodelación</option><option>Diseño arquitectónico</option><option>Diseño estructural</option><option>Licencias de construcción</option><option>Estudios de prefactibilidad y factibilidad</option><option>Modelado BIM</option><option>Topografía</option></select></label></div>
     <label>Ubicación del proyecto<input name="ubicacion" placeholder="Ciudad / municipio"></label>
-    <label>Cuéntanos sobre el proyecto<textarea name="mensaje" rows="5" placeholder="¿Qué necesitas desarrollar?" required></textarea></label>
+    <label>Cuéntanos sobre el proyecto<textarea name="mensaje" rows="5" placeholder="¿Qué necesitas desarrollar?" required></textarea></label><label>Adjuntar información del proyecto <input type="file" name="archivo" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label>
     <button class="btn gold full" type="submit">Enviar solicitud <b>→</b></button>
     <p class="form-note">La información será enviada al correo de CIVLAB.</p>
   </form>

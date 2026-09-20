@@ -26,3 +26,12 @@ Paleta:
 
 
 V3: footer actualizado para usar el logo azul oficial suministrado por CIVLAB (`logo-footer-civlab.jpg`).
+
+
+V4: header ajustado para que el logo no invada el contenido; el hero usa el emblema CIVLAB sin fondo blanco.
+
+V5:
+- Sección "Sobre CIVLAB" mejorada y sin texto provisional "CL / 2026".
+- Emblema oficial integrado sin fondo blanco.
+- Formulario preparado para adjuntar PDF, JPG, PNG, DOC o DOCX.
+- El portafolio conserva espacios provisionales hasta recibir las fotos reales.
