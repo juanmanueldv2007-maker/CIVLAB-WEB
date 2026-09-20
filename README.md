@@ -1,3 +1,7 @@
+CIVLAB WEB — V10
+
+Actualización: botón flotante de WhatsApp reemplazado por el diseño 'ESCRÍBENOS' de CIVLAB.
+
 # CIVLAB WEB — versión final inicial
 
 Subir todos estos archivos a la raíz del repositorio GitHub:
