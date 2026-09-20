@@ -162,3 +162,196 @@ form input[name="email"]{background:#fff}
   .about-photo-text{padding:10px 12px;gap:5px}
   .about-photo-text strong{font-size:11px;letter-spacing:.7px}
 }
+
+
+/* =====================================================
+   SOBRE CIVLAB — V9
+   Editorial, limpio y responsive
+===================================================== */
+.about-civlab {
+  width: 100%;
+  background: #fff;
+  padding: 110px 6vw;
+  overflow: hidden;
+}
+
+.about-civlab-container {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: clamp(45px, 7vw, 90px);
+  align-items: center;
+}
+
+.about-civlab-visual {
+  min-width: 0;
+}
+
+.about-civlab-image-wrap {
+  width: 100%;
+  overflow: hidden;
+  background: #eef1f3;
+  box-shadow: 0 24px 60px rgba(8,42,67,.10);
+}
+
+.about-civlab-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+  transition: transform .5s ease;
+}
+
+.about-civlab-image-wrap:hover .about-civlab-image {
+  transform: scale(1.015);
+}
+
+.about-civlab-content {
+  min-width: 0;
+}
+
+.about-civlab-content .eyebrow {
+  margin-bottom: 18px;
+}
+
+.about-civlab-content h2 {
+  margin: 0 0 30px;
+  color: var(--navy);
+  font: 700 clamp(42px, 4.5vw, 68px)/.99 "Space Grotesk";
+  letter-spacing: -3.2px;
+}
+
+.about-civlab-content h2 em {
+  color: var(--gold);
+  font-style: normal;
+}
+
+.about-civlab-content p:not(.eyebrow) {
+  max-width: 650px;
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.about-civlab-content .about-civlab-intro {
+  color: #3f566a;
+  font-size: 19px;
+  line-height: 1.65;
+}
+
+.about-civlab-values {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 46px;
+  padding-top: 27px;
+  border-top: 1px solid var(--line);
+}
+
+.about-civlab-value {
+  min-width: 0;
+  padding: 0 24px;
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-civlab-value:first-child {
+  padding-left: 0;
+}
+
+.about-civlab-value:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.about-civlab-value b {
+  color: var(--gold);
+  font-size: 12px;
+  margin-bottom: 13px;
+}
+
+.about-civlab-icon {
+  width: 45px;
+  height: 45px;
+  display: block;
+  color: var(--navy);
+  margin-bottom: 13px;
+}
+
+.about-civlab-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.about-civlab-value > span:last-child {
+  color: var(--navy);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+@media (max-width: 850px) {
+  .about-civlab {
+    padding: 80px 6vw;
+  }
+
+  .about-civlab-container {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .about-civlab-content h2 {
+    font-size: clamp(42px, 9vw, 60px);
+  }
+}
+
+@media (max-width: 600px) {
+  .about-civlab {
+    padding: 65px 18px;
+  }
+
+  .about-civlab-container {
+    gap: 38px;
+  }
+
+  .about-civlab-image {
+    aspect-ratio: 4 / 5;
+  }
+
+  .about-civlab-content h2 {
+    font-size: 43px;
+    letter-spacing: -1.8px;
+  }
+
+  .about-civlab-content .about-civlab-intro {
+    font-size: 17px;
+  }
+
+  .about-civlab-content p:not(.eyebrow) {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-civlab-values {
+    grid-template-columns: 1fr;
+    margin-top: 34px;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .about-civlab-value,
+  .about-civlab-value:first-child,
+  .about-civlab-value:last-child {
+    padding: 22px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .about-civlab-value:last-child {
+    border-bottom: 0;
+  }
+}

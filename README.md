@@ -11,7 +11,7 @@ Subir todos estos archivos a la raíz del repositorio GitHub:
 Después de hacer Commit, Vercel debe desplegar automáticamente.
 
 Formulario:
-- Destino: JuanDuenas@civlabsas.com
+- Destino: cotizaciones@civlabsas.com
 - WhatsApp: +57 316 608 9930
 
 IMPORTANTE:
