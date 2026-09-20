@@ -35,3 +35,6 @@ V5:
 - Emblema oficial integrado sin fondo blanco.
 - Formulario preparado para adjuntar PDF, JPG, PNG, DOC o DOCX.
 - El portafolio conserva espacios provisionales hasta recibir las fotos reales.
+
+
+V6 updates: creative hero collage, improved mobile About section, FormSubmit _replyto, custom-domain thank-you redirect, and anti-bot honeypot.
