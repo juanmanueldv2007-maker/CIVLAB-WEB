@@ -1,3 +1,7 @@
+CIVLAB WEB — V12
+
+Portafolio ajustado a servicios reales de CIVLAB y fichas breves desplegables por proyecto.
+
 CIVLAB WEB — V11
 
 Portafolio actualizado con imágenes reales y categorías relacionadas con los servicios de CIVLAB.
