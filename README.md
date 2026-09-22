@@ -1,3 +1,7 @@
+CIVLAB WEB — V13
+
+Corrección del portafolio: cada imagen ahora corresponde al servicio y actividad mostrados. Se añadió modelado estructural, reconocimiento de terreno y seguimiento de obra con fotografías reales.
+
 CIVLAB WEB — V12
 
 Portafolio ajustado a servicios reales de CIVLAB y fichas breves desplegables por proyecto.
