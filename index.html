@@ -67,19 +67,73 @@
   </div>
 </section>
 
-<section id="proyectos" class="projects">
-  <div class="section-head">
-    <div><p class="eyebrow">PORTAFOLIO</p><h2>Proyectos que hablan<br><em>por nosotros.</em></h2></div>
-    <p class="section-intro">Un espacio para mostrar los proyectos, renders, modelos BIM y trabajos de campo de CIVLAB.</p>
+<section class="portfolio" id="proyectos">
+  <div class="portfolio-head">
+    <div>
+      <span class="section-eyebrow">PORTAFOLIO</span>
+      <h2>Proyectos <span>que generan valor.</span></h2>
+    </div>
+    <p>En CIVLAB desarrollamos proyectos de ingeniería y construcción que responden a necesidades reales, integrando diseño, análisis y ejecución con un enfoque técnico y práctico.</p>
   </div>
-  <div class="project-grid">
-    <article class="project project-large"><div class="project-bg bg1"></div><div class="project-info"><small>01 / DISEÑO</small><h3>Proyecto residencial</h3><p>Diseño y desarrollo de proyecto.</p></div></article>
-    <article class="project"><div class="project-bg bg2"></div><div class="project-info"><small>02 / BIM</small><h3>Modelado y coordinación</h3></div></article>
-    <article class="project"><div class="project-bg bg3"></div><div class="project-info"><small>03 / TOPOGRAFÍA</small><h3>Levantamiento de terreno</h3></div></article>
-  </div>
-  <div class="portfolio-note">PRÓXIMAMENTE · PORTAFOLIO CIVLAB</div>
-</section>
 
+  <div class="portfolio-filters">
+    <button class="portfolio-filter active" data-filter="all">Todos</button>
+    <button class="portfolio-filter" data-filter="diseno">Diseño y planificación</button>
+    <button class="portfolio-filter" data-filter="estructuras">Estructuras</button>
+    <button class="portfolio-filter" data-filter="hidrosanitario">Hidrosanitario</button>
+    <button class="portfolio-filter" data-filter="construccion">Construcción</button>
+    <button class="portfolio-filter" data-filter="obra-civil">Obra civil</button>
+    <button class="portfolio-filter" data-filter="modelado">Modelado 3D</button>
+  </div>
+
+  <div class="portfolio-grid">
+
+    <article class="portfolio-card" data-category="diseno estructuras modelado">
+      <div class="portfolio-image"><img src="portafolio-edificacion.jpg" alt="Proyecto de edificación CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>DISEÑO Y PLANIFICACIÓN</span><h3>Proyecto de edificación</h3><p>Desarrollo y propuesta arquitectónica para proyecto multifamiliar.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="diseno modelado">
+      <div class="portfolio-image"><img src="portafolio-arquitectonico.jpg" alt="Diseño arquitectónico CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>DISEÑO Y PLANIFICACIÓN</span><h3>Diseño arquitectónico</h3><p>Visualización y distribución de espacios habitables.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="hidrosanitario modelado">
+      <div class="portfolio-image"><img src="portafolio-hidrosanitario.jpg" alt="Diseño de redes hidráulicas CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>HIDROSANITARIO</span><h3>Diseño de redes hidráulicas</h3><p>Modelado de sistemas de bombeo y almacenamiento de agua.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="estructuras obra-civil">
+      <div class="portfolio-image"><img src="portafolio-detalle-tecnico.png" alt="Detalle técnico CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>ESTABILIZACIÓN Y OBRAS CIVILES</span><h3>Detalles técnicos</h3><p>Desarrollo de soluciones constructivas para estabilización y obra civil.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="hidrosanitario modelado">
+      <div class="portfolio-image"><img src="portafolio-instalaciones.jpg" alt="Instalaciones hidráulicas CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>HIDROSANITARIO</span><h3>Instalaciones hidráulicas</h3><p>Diseño y modelado de redes hidráulicas para vivienda.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="diseno">
+      <div class="portfolio-image"><img src="portafolio-planos.png" alt="Planos de diseño CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>DISEÑO Y PLANIFICACIÓN</span><h3>Planos de diseño</h3><p>Coordinación de planos arquitectónicos e instalaciones.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="obra-civil">
+      <div class="portfolio-image"><img src="portafolio-rural.jpg" alt="Diagnóstico de infraestructura rural CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>INFRAESTRUCTURA RURAL</span><h3>Diagnóstico y evaluación</h3><p>Registro y análisis del estado de vías y condiciones del entorno.</p><b>→</b></div>
+    </article>
+
+    <article class="portfolio-card" data-category="construccion obra-civil">
+      <div class="portfolio-image"><img src="portafolio-obra-civil.jpg" alt="Intervención de obra civil CIVLAB" loading="lazy"></div>
+      <div class="portfolio-info"><span>OBRA CIVIL</span><h3>Ejecución de obra</h3><p>Seguimiento y registro de intervenciones urbanas y espacio público.</p><b>→</b></div>
+    </article>
+
+  </div>
+
+  <div class="portfolio-more">
+    <a href="#cotizacion" class="btn-outline-gold">VER MÁS PROYECTOS <span>→</span></a>
+  </div>
+</section>
 <section id="nosotros" class="about-civlab section">
   <div class="about-civlab-container">
 
@@ -160,4 +214,25 @@
 </footer>
 <a class="wa-float" href="https://wa.me/573166089930" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp"><img src="whatsapp-civlab.png" alt="Escríbenos por WhatsApp"></a>
 <script src="script.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".portfolio-filter");
+  const cards = document.querySelectorAll(".portfolio-card");
+
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      buttons.forEach(function (b) { b.classList.remove("active"); });
+      button.classList.add("active");
+
+      const filter = button.dataset.filter;
+      cards.forEach(function (card) {
+        const categories = (card.dataset.category || "").split(" ");
+        card.style.display = filter === "all" || categories.includes(filter) ? "" : "none";
+      });
+    });
+  });
+});
+</script>
+
 </body></html>

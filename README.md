@@ -1,3 +1,7 @@
+CIVLAB WEB — V11
+
+Portafolio actualizado con imágenes reales y categorías relacionadas con los servicios de CIVLAB.
+
 CIVLAB WEB — V10
 
 Actualización: botón flotante de WhatsApp reemplazado por el diseño 'ESCRÍBENOS' de CIVLAB.
